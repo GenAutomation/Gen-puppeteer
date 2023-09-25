@@ -1,17 +1,19 @@
+
 # Library <a href="https://genlogin.com" target="_blank">Genlogin API</a>
-# Official Package
 
 ## Getting Started
 
 Genlogin supports MacOS and Windows platforms.
 
 ### Installation
-
+Download Genlogin app : <a href="https://genlogin.com/" target="_blank">Link here</a>
 <!--`npm i genlogin`-->
 
-for running example.js install puppeteer
+For running example.js install puppeteer
 
 `npm i puppeteer`
+
+
 
 ### Example
 
@@ -40,8 +42,24 @@ const puppeteer = require('puppeteer');
 
 ### Running example:
 `node example.js`
-### Full GoLogin API
+### Full GenLogin API
 - Swagger: <a href="http://localhost:55550/api-docs" target="_blank">Link here</a> 
+### 🐱 Bot / Fingerprint detection sites
+Genlogin bypass anti-bot page like: Amazon, Ebay, Shoppee for data scraping work with native change fingerprint technology rewritten from the chromnium browser kernel without using javascript. Fingerprint data and device parameters are continuously updated to the latest Genlogin.
+
+
+
+
+
+| Site check bot                                      | Resulut | Image                                         |
+| --------------------------------------------------- | ------- | --------------------------------------------- |
+| [Recaptcha-v3](https://recaptcha-demo.appspot.com/) | Pass    | ![](https://hackmd.io/_uploads/BkS90901T.png) |
+| [Creepjs](https://abrahamjuliot.github.io/creepjs/) | Pass    | ![](https://hackmd.io/_uploads/r1ffn90JT.png) |
+| [sannysoft](https://bot.sannysoft.com/)             | Pass    |  ![](https://hackmd.io/_uploads/ryuIyiCk6.png)|
+| [Pixelscan](https://pixelscan.net/)                 | Pass    | ![](https://hackmd.io/_uploads/B13L29Ak6.png) |
+
+
+
 
 ### Methods:
 LOCAL_URL = "http://localhost:55550/profiles"
