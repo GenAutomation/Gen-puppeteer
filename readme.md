@@ -5,8 +5,10 @@
 
 Genlogin supports MacOS and Windows platforms.
 
+
 ### Installation
 Download Genlogin app : <a href="https://genlogin.com/" target="_blank">Link here</a>
+API support from mini-plan
 <!--`npm i genlogin`-->
 
 For running example.js install puppeteer
@@ -45,7 +47,7 @@ const puppeteer = require('puppeteer');
 ### Full GenLogin API
 - Swagger: <a href="http://localhost:55550/api-docs" target="_blank">Link here</a> 
 ### 🐱 Bot / Fingerprint detection sites
-Genlogin bypass anti-bot page like: Amazon, Ebay, Shoppee for data scraping work with native change fingerprint technology rewritten from the chromnium browser kernel without using javascript. Fingerprint data and device parameters are continuously updated to the latest Genlogin.
+Genlogin bypass anti-bot page like: Amazon, Ebay, Shoppee for data scraping work with native change fingerprint technology rewritten from the chromnium browser kernel without using javascript. Fingerprint data and device parameters (UA, Canvas, Webgl, Webrtc forward, Font, Client Rects,Audio... ) are continuously updated to the latest Genlogin.
 
 
 
@@ -55,7 +57,7 @@ Genlogin bypass anti-bot page like: Amazon, Ebay, Shoppee for data scraping work
 | --------------------------------------------------- | ------- | --------------------------------------------- |
 | [Recaptcha-v3](https://recaptcha-demo.appspot.com/) | Pass    | ![](https://hackmd.io/_uploads/BkS90901T.png) |
 | [Creepjs](https://abrahamjuliot.github.io/creepjs/) | Pass    | ![](https://hackmd.io/_uploads/r1ffn90JT.png) |
-| [sannysoft](https://bot.sannysoft.com/)             | Pass    |  ![](https://hackmd.io/_uploads/ryuIyiCk6.png)|
+| [sannysoft](https://bot.sannysoft.com/)             | Pass    | ![](https://hackmd.io/_uploads/ryuIyiCk6.png) |
 | [Pixelscan](https://pixelscan.net/)                 | Pass    | ![](https://hackmd.io/_uploads/B13L29Ak6.png) |
 
 
